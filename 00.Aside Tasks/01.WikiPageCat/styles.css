@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather&family=Raleway&family=Roboto&family=Ubuntu&family=Work+Sans&display=swap');
+
+body {
+    max-width: 1000px;
+}
+
+main {
+    font-family: "Ubuntu";
+
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+img {
+    max-width: 200px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    margin: 0px 0px 0px 15px;
+    
+}
+
+/* img[class^="align"] {
+    margin-bottom: 0.5em;
+} */
+
+img.align-left {
+    float:left
+}
+
+img.align-right {
+    float:right
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+h2 {
+    display: inline-block;
+    margin: 10px 0px 5px 0px;
+}
+
+.brackets{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    display: inline-block;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.indent {
+    margin-left: 20px;
+}
+
+.form {
+    border: 1px solid grey;
+}
+
+.search {
+    margin: 0;
+    text-align: left;
+    padding: 3px 5px;
+}
+
+.right-nav {
+    float: right;
+    margin: 0px 40px 0px 0px
+}
+
+
+
+
+
