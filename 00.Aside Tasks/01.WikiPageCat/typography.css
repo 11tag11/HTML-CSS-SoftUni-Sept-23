@@ -2,12 +2,12 @@
 
 html {
     /* font-family: "Ubuntu"; */
-    /* font-size: 16px; */
+    /* font-size: 14px; */
     /*Base font size = 1em*/
     /* line-height: 1.4; */
 
     /*Shorthand*/
-    font: 16px/1.4 "Ubuntu";
+    font: 14px/1.4 "Ubuntu";
 }
 
 body, table, input, button {
@@ -67,7 +67,6 @@ blockquote p.author:before {
 }
 
 img {
-    display: block;
     max-width: 250px;
     border: 1px solid #ccc;
     padding: 0.5em;
