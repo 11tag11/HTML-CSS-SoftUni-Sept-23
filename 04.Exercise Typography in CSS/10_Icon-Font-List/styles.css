@@ -1,0 +1,29 @@
+/*Use FontAwesome for this task. Import it in your CSS, with the @import rule*/
+/* 100 */
+
+@import url("https://use.fontawesome.com/releases/v6.4.2/css/all.css");
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: 1.5;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.check  li i {
+    color: #2fcc71;
+    font-size: 25px;
+}
+
+ul.star li i {
+    color: coral;
+    font-size: 25px;
+}
+
+ul.contact li i {
+    color: #3498da;
+    font-size: 25px;
+}
