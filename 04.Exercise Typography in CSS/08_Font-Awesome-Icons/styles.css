@@ -1,7 +1,8 @@
-/*85*/
-@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+/*92*/
+/* @import url("https://use.fontawesome.com/releases/v6.4.2/css/all.css"); */
+
 body {
-    font-family: 'Proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'proxima-nova', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 nav {
@@ -9,6 +10,7 @@ nav {
     border: 1px solid #e3e3e3;
     font-size: 14px;
     background-color: #f5f5f5;
+    line-height: 20px;
 }
 
 li {
@@ -47,6 +49,5 @@ button.delete {
     background-color: #cc4036;
 }
 
-/* .fa-home:before{content:"\f015"}
-.fa-pencil:before{content:"\f5ae"} */
+
 
