@@ -1,0 +1,42 @@
+/* 100 */
+@import url("https://use.fontawesome.com/releases/v6.4.2/css/all.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.viewport {
+    height: 50vh;
+    position: relative;
+}
+
+.viewport:nth-child(1) {
+    background: linear-gradient(to right, #185a9d, #43cda2);
+}
+
+.viewport:nth-child(2) {
+    background: linear-gradient(to right, #a83278, #d28212);
+}
+
+section.card {
+    display: block;
+}
+
+.card {
+    width: 10em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.3em;
+    overflow: hidden;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
