@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+body {
+    margin: 0em 3em;
+    padding: 0em 3em;
+}
+
 .viewport {
     height: 50vh;
     position: relative;
@@ -24,19 +29,51 @@ section.card {
 }
 
 .card {
-    width: 10em;
+    width: 18em;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 0.3em;
     overflow: hidden;
+    box-shadow: 0 0 1em 0.2em rgb(0, 0, 0, 0.2);
+
 }
 
 .card img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.width-img {
+    position: absolute;
+    top: 89%;
+    left: 92%;
+    color: whitesmoke;
+}
+
+.height-img {
+    position: absolute;
+    top: 95%;
+    left: 92%;
+    color: whitesmoke;
+}
+
+.card .inner-shadow {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 1em 0.5em rgb(0, 0, 0, 0.5) inset;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+.card:hover .inner-shadow {
+    opacity: 0.1;
 }
 
 
