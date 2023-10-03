@@ -1,0 +1,36 @@
+/* 100 */
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 2em 6em;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+header {
+    border-bottom: 2px solid black;
+    margin-bottom: 4em;
+}
+
+aside {
+    margin-left: auto;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
