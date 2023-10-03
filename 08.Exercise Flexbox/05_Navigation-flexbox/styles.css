@@ -1,0 +1,33 @@
+/* 100 */
+body {
+    margin: 0;
+    padding: 40px;
+}
+
+header, ul {
+    display: flex;
+}
+
+nav {
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+header > p {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+}
