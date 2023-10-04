@@ -1,0 +1,80 @@
+$gap: 4vh;
+$padding: 4vh;
+$color: #48CAE4;
+
+$bp: (
+    mobile: 480px,
+    tablet: 768px,
+    desktop: 1440px
+);
+
+@mixin query($screen) {
+    @each $key, $value in $bp {
+        @if ($screen ==$key) {
+            @media (max-width: $value) {
+                @content;
+            }
+        }
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        width: 100%;
+        min-height: 100vh;
+    }
+}
+
+/*UP, the settings*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: $gap;
+    padding: $padding;
+
+    @include query(mobile) {
+        flex-direction: column;
+    }
+}
+
+[class ^="block-"] {
+    border: 1vh solid $color;
+    border-radius: 10px;
+    height: 100vh -$padding*2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include query(mobile) {
+        height: 50vh -$padding*2;
+    }
+}
+
+//Left
+.block-1 {
+    flex-grow: 2;
+    @include query(mobile) {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+}
+
+// Right
+.block-2 {
+    flex-grow: 8;
+    @include query(mobile) {
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
