@@ -1,39 +1,54 @@
 /* 100 */
 html {
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
 }
 
-div, section{
-    display: flex; 
-    flex-wrap: wrap;
-    
-    /* align-items: center; */
-    justify-content: center;
-} 
+* {
+    box-sizing: inherit;
+}
 
-div {
+.container {
     max-width: 65vw;
+    display: flex;
+
+    /* center the container */
+    margin: 50px auto; 
+}
+
+.week {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70%;
+}
+
+.week span {
+    flex-grow: 1;
+}
+
+.workweek,
+.weekend {
+    flex-basis: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    font-weight: 600;
 }
 
 span {
     border: 1px solid black;
-    padding: 30px 30px 60px 30px;
+    padding: 15px 20px 85px 20px;
+    text-align: center;
 }
 
 .notes {
+    display: flex;
     flex-direction: column;
+    /* flex-basis: 30%; */
 }
 
-.week span:nth-child(1) {
-    flex-basis: 800px;
-    text-align: center;
-    /* padding: 30px 60px 60px 60px; */
-    
-    
-}
-
-.week span:nth-child(7) {
-    flex-basis: 800px;
-    text-align: center;
-    /* padding: 40px 200px 60px 200px; */
+.reminders,
+.special-dates {
+    flex-grow: 1;
+    padding: 10px 20px;
+    font-weight: 600;
 }
