@@ -1,6 +1,7 @@
 /* 100 */
 body {
-    padding: 2em;
+    margin: 2em 4em;
+    /* padding: 2em; */
 }
 
 body, ul, li {
@@ -11,7 +12,7 @@ ul {
     flex-wrap: wrap;
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
-    padding: 0em 1em;
+    padding: 0em 6em;
 }
 
 li {
@@ -22,7 +23,9 @@ li {
 }
 
 img {
-    margin: auto;
-    width: 100%;
+    /* margin: auto;
+    width: 100%; */
+    object-fit: contain;
+    /* show the image in original sizes, 'zoom out' */
 }
 
